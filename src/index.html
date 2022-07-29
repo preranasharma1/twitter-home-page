@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Home Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <div class="sidebar">
+      <i class="fab fa-twitter"></i>
+      <div class="sidebarOption active">
+        <span class="material-icons"> home </span>
+        <h2>Home</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> search </span>
+        <h2>Explore</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> notifications_none </span>
+        <h2>Notifications</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> mail_outline </span>
+        <h2>Messages</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> bookmark_border </span>
+        <h2>Bookmarks</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> list_alt </span>
+        <h2>Lists</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> perm_identity </span>
+        <h2>Profile</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar__tweet">Tweet</button>
+    </div>
+    
+    <div class="feed">
+      <div class="feed__header">
+        <h2>HOME TWITTER</h2>
+      </div>
+
+      <div class="tweetBox">
+        <form>
+          <div class="tweetbox__input">
+            <img
+              src="profile.jpg"
+              alt="ERROR"
+            />
+            <input type="text" placeholder="What's happening?" />
+          </div>
+          <button class="tweetBox__tweetButton">Tweet</button>
+        </form>
+      </div>
+      
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="profile1.jpg"
+            alt="ERROR"
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Elon Musk
+                <span class="post__headerSpecial">
+                  <span class="material-icons post__badge"> verified 
+                    </span>
+                    @elonmusk
+                  </span>
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Tesla is the ultimate GOAT!!</p>
+            </div>
+          </div>
+          <img
+            src="post.jpg"
+            alt="ERROR"
+          />
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> download </span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="profile2.jpg"
+            alt="ERROR"
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Dua Lipa
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@dualipa</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Love performing in India :)</p>
+            </div>
+          </div>
+          <img
+            src="post1.jpg"
+            alt="ERROR"
+          />
+          
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> download </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="widgets">
+      <div class="widgets__input">
+        <span class="material-icons widgets__searchIcon"> search </span>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+
+      <div class="widgets__widgetContainer">
+        <h2>What's happening?</h2>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            
+            <a href="https://twitter.com/sundarpichai">@sundarpichai</a><br>
+            <a href="https://twitter.com/search?q=%23sundarpichai&src=typed_query&f=top">#google</a><br>
+            <a href="https://twitter.com/search?q=%23google&src=typed_query&f=top">#sundarpichai</a><br>
+            <a href="https://twitter.com/i/events/1543863519715553281"></a>
+          </p>
+          &mdash; Ratan Tata's Ideology 
+          <a href="https://mobile.twitter.com/KhelNow/status/1543875240891019265">4 July,2022</a><br><br>
+          <img src="rt.jpg" height="150px" alt="ERROR">
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+
+      <div class="widgets__widgetContainer">
+        <h2>Top Picks</h2>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            
+            <a href="https://twitter.com/sundarpichai">@sundarpichai</a><br>
+            <a href="https://twitter.com/search?q=%23sundarpichai&src=typed_query&f=top">#google</a><br>
+            <a href="https://twitter.com/search?q=%23google&src=typed_query&f=top">#sundarpichai</a><br>
+            <br><br>
+            <a href="https://twitter.com/sundarpichai">@ratantata</a><br>
+            <a href="https://twitter.com/search?q=%23sundarpichai&src=typed_query&f=top">#tatagroups</a><br>
+            <a href="https://twitter.com/search?q=%23google&src=typed_query&f=top">#tcs</a><br>
+            <br><br>
+            <a href="https://twitter.com/sundarpichai">@narendramodi</a><br>
+            <a href="https://twitter.com/search?q=%23sundarpichai&src=typed_query&f=top">#india</a><br>
+            <a href="https://twitter.com/search?q=%23google&src=typed_query&f=top">#nitiaayog</a><br>
+            <br><br>
+            <a href="https://twitter.com/sundarpichai">@vladimirputin</a><br>
+            <a href="https://twitter.com/search?q=%23sundarpichai&src=typed_query&f=top">#russia</a><br>
+            <a href="https://twitter.com/search?q=%23google&src=typed_query&f=top">#ukraine</a><br>
+            
+            
+          </p>
+         
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+
+    </div>
+    
+  </body>
+</html>
+
